@@ -14,6 +14,7 @@
 		4E6766AA1A71B4280025BC08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6766A91A71B4280025BC08 /* Images.xcassets */; };
 		4E6766AD1A71B4280025BC08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E6766AB1A71B4280025BC08 /* LaunchScreen.xib */; };
 		4E6766B91A71B4280025BC08 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6766B81A71B4280025BC08 /* Git_TestTests.m */; };
+		4E6766C41A73071A0025BC08 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6766C31A73071A0025BC08 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4E6766B21A71B4280025BC08 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6766B71A71B4280025BC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E6766B81A71B4280025BC08 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		4E6766C21A73071A0025BC08 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		4E6766C31A73071A0025BC08 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		4E67669B1A71B4280025BC08 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				4E6766C21A73071A0025BC08 /* CCTest.h */,
+				4E6766C31A73071A0025BC08 /* CCTest.m */,
 				4E6766A01A71B4280025BC08 /* AppDelegate.h */,
 				4E6766A11A71B4280025BC08 /* AppDelegate.m */,
 				4E6766A31A71B4280025BC08 /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E6766A51A71B4280025BC08 /* ViewController.m in Sources */,
+				4E6766C41A73071A0025BC08 /* CCTest.m in Sources */,
 				4E6766A21A71B4280025BC08 /* AppDelegate.m in Sources */,
 				4E67669F1A71B4280025BC08 /* main.m in Sources */,
 			);
